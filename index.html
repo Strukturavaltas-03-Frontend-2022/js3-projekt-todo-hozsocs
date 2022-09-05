@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+  <title>to-do projekt</title>
+</head>
+<body>
+  <div class="todo__container">
+    <h1>Daily To-Do list manager</h1>
+    <div class="todo__flexContainer">
+      <div class="dayanddate">
+        <div class="flexitem__day">
+          nap
+        </div>
+        <div class="flexitem__date">
+          dátum
+        </div>
+      </div>
+      <div class="flexitem__form">
+        <input type="text" id="todoText" name="todotext" value="Take the garbage out">
+        <input type="button" onclick="" value="+" name="todoBotton" id="todoBotton"> 
+      </div>
+      <div class="flexitem__todoList">
+        <div class="flexitem__todolist--head">
+          You have 2 pending items
+        </div>
+        <div class="flexitem__todolist--list">
+          <div>
+          <input type="checkbox" id="list1" name="list1" value="list1">
+           <label for="list1"> sdfsdf</label>
+          </div>
+          <div><input type="checkbox" id="list2" name="list2" value="list2">
+           <label for="list2"> sasddfsdf</label>
+          </div>
+        </div>
+      </div>
+      <div class="flexitem__completed">
+        <div class="flexitem__comleted--header">
+          Completed tesks: 50%
+        </div> 
+        <div class="flexitem__completed--list">
+          <div>
+          <input type="checkbox" id="clist1" name="list1" value="list1">
+           <label for="list1"> sdfsdf</label>
+          </div>
+          <div><input type="checkbox" id="clist2" name="list2" value="list2">
+           <label for="list2"> sasddfsdf</label>
+          </div>
+        </div> 
+      </div>
+      <div class="flexitem__footer">
+        <div class="footer__botton" id="HideCompleteBotton"> <strong>Hide Complete</strong> </div> 
+        <div class="footer__botton" id="ClearAllBotton"><strong>Clear All</strong></div> 
+      </div>
+
+    </div>
+    
+
+
+
+</div>
+
+  <script src="main.js"></script>
+</body>
+</html>

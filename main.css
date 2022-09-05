@@ -1,0 +1,146 @@
+body {
+
+  background-color:lightcoral ;
+}
+
+.todo__container {
+  margin: 5% 30%;
+width: 40%;
+height:90%;
+text-align: center;
+font-size: 60%;
+
+}
+
+.todo__flexContainer {
+  display:flex;
+  background-color: antiquewhite;
+  width: 40vw;
+  height: 81vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  border-radius: 5px;
+  
+
+}
+
+.todo__flexContainer > div {
+  width: 100%;
+  margin: 2% 5%;
+  
+}
+
+.dayanddate {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width:100%;
+  height:10%;
+  padding-top: 10%;
+}
+
+.dayanddate > div {
+text-align: left;
+height:40%;
+font-size: 200%;
+align-self: flex-start;
+color: lightcoral;
+}
+
+.flexitem__day {
+margin-bottom: 0;
+padding-bottom: 0;
+}
+
+.flexitem__date {
+margin-top: 0;
+padding-top: 0;
+}
+
+.flexitem__form {
+height:7%;
+display:flex;
+flex-direction: row;
+flex-wrap: nowrap;
+gap: 1%;
+font-size: 120%;
+}
+
+flexitem__form > div {
+
+
+}
+
+#todoText {
+width:75%;
+height: 90%;
+border: solid thin rgb(153, 152, 152) ;
+border-radius: 0 5px 5px 0;
+color:rgb(153, 152, 152);
+}
+
+#todoBotton {
+height:100%; 
+width: 20%;
+background-color: rgb(153, 152, 152);
+color: white;
+
+border: solid thin rgb(153, 152, 152) ;
+border-radius: 5px;
+}
+
+.flexitem__todoList, .flexitem__completed {
+  text-align: left;
+  font-size: 120%;
+}
+
+.flexitem__todoList > *, .flexitem__completed > * {
+  margin-bottom: 2%;
+ 
+}
+
+
+.flexitem__todolist--list > *{
+  background-color: rgb(153, 152, 152); 
+    
+  font-size: 100%;
+  border: solid thin rgb(153, 152, 152) ;
+  border-radius: 5px;
+  width:100%;
+  height:100%;
+  padding:2% 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
+}
+
+.flexitem__completed--list > * {
+  background-color: white; 
+    
+  font-size: 100%;
+  border: solid thin rgb(153, 152, 152) ;
+  border-radius: 5px;
+  width:100%;
+  height:100%;
+  padding:2% 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
+
+}
+
+.flexitem__footer {
+display:flex;
+flex-wrap: nowrap;
+gap: 10%;
+justify-content: center ;
+}
+
+.flexitem__footer > .footer__botton {
+  font-size: 120%;
+  text-align: center;
+  text-decoration: double;
+}
